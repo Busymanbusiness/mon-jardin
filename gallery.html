@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Galerie de Photos</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<style>
+    .item {
+    background-color: #fff;
+    /* background-color: orange; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    display:inline-flex;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid forestgreen;
+}
+.item img, .item iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+.legend {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #555;
+    text-shadow: 8px 8px 8xp solid gray;
+}
+
+
+.gallery-grid {
+display: grid;
+grid-template: repeat(auto-fill, minmax(400px, 1fr));
+gap: 10px;
+
+
+}
+
+.gallery-grid img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+transition: transform 0.3s;
+
+}
+
+/* .gallery-grid img:hover {
+transform: scale(1.05);
+
+} */
+
+.gallery-grid img:hover {
+transform: scale(2.05);
+width: 200px;
+
+}
+
+.cadre1{
+    background: rgba(0, 0, 0, 0.1);
+}
+h2{
+    color:green;
+    font-style:italic;
+}
+
+
+</style>
+<body> 
+    <header> 
+    <!-- <img class="logo" src="../monjardin/img/logojardin.jpg" alt="" width="150" height="auto"> -->
+        <h1>Galerie de Photos</h1> 
+        <nav> 
+        <ul class="menu"> 
+                <li  >
+                <li><a 
+                href="index.html">Accueil</a></li>     
+<li><a 
+href="calendar.html">Calendrier</a></li>
+                <li><a 
+href="blog.html">Blog</a></li> 
+                <li class="active"><a 
+href="gallery.html">Galerie</a></li> 
+                <li>
+                <li><a 
+href="services.html">Services</a></li> 
+                <li>
+                <a 
+href="forum.html">Forum</a></li> 
+                <li><a 
+href="newsletter.html">Newsletter</a></li>
+
+            </ul> 
+        </nav> 
+    </header> 
+    <main> 
+        <h2> Découvrer Nos Cultures</h2> 
+        <div class="cadre1" >
+        <div class="item">
+          <div class="gallery-grid">
+            <a href="#">  <img src="../monjardin/img/papaye.jpg" alt="" width="450" height="200"></a>
+            <div class="legend"> La papaye se consomme tout simplement fraîche... <a href="papaye.html">voir plus</a></div>
+          </div>
+        </div>
+         <div class="item">
+          <div class="gallery-grid">
+            <a href="carrote.html"> <img src="../monjardin/img/carottes.jpg" alt="" width="450" height="200"></a>
+            <div class="legend"> La carotte est un légume assez facile à entretenir.<a href="carrote.html">voir plus</a></div>
+          </div>
+         </div>
+         <div class="item">
+          <div class="gallery-grid">
+            <a href=""><img src="../monjardin/img/pument.jpg" alt="" width="450" height="200"></a>
+            <div class="legend"> <a href="">voir plus</a></div>
+        </div>
+         </div>
+           <div class="item">
+            <div class="gallery-grid">
+              <a href=""><img src="../monjardin/img/kandia.jpg" alt="" width="450" height="200"></a>
+              <div class="legend"> <a href="">voir plus</a></div>
+            </div>
+           </div>
+       <div class="item">
+        <div class="gallery-grid">
+          <a href="laitue.html"> <img src="../monjardin/img/salad.jpg" alt="" width="450" height="200"></a>
+          <div class="legend">La laitue se décline en de multiples variétés... <a href="laitue.html">voir plus</a></div>
+        </div>
+       </div>
+           <div class="item">
+            <div class="gallery-grid">
+              <img src="../monjardin/img/orang.jpg" alt="" width="450" height="200">
+              <div class="legend"> L'orange est l'un des fruits les plus consommés <a href="orange.html">voir plus</a></div>
+            </div>
+           </div>
+           <div class="item">
+            <div class="gallery-grid">
+              <img src="../monjardin/img/patat.jpg" alt="" width="450" height="200">
+              <div class="legend"> <a href="">voir plus</a></div>
+            </div>
+           </div>
+          <div class="item">
+            <div class="gallery-grid">
+              <img  src="../monjardin/img/caba.jpg" alt="" width="450" height="200">
+              <div class="legend"> <a href="">voir plus</a></div>
+            </div>
+          </div>
+      <div class="item">
+        <div class="gallery-grid">
+          <img src="../monjardin/img/caju.jpg" alt="" width="450" height="200">
+          <div class="legend"> <a href="">voir plus</a></div>
+        </div>
+      </div>
+          <div class="item">
+            <div class="gallery-grid">
+              <img src="../monjardin/img/cit.jpg" alt="" width="450" height="200">
+              <div class="legend"> <a href="">voir plus</a></div>
+            </div>
+          </div>
+           <div class="item">
+            <div class="gallery-grid">
+              <img src="../monjardin/img/citron.jpg" alt="" width="450" height="200">
+              <div class="legend"> <a href="">voir plus</a></div>
+            </div>
+           </div>
+          <div class="item">
+            <div class="gallery-grid">
+              <a href="raisin.html"><img src="../monjardin/img/raisin.jpg" alt="" width="450" height="200"></a>
+              <div class="legend"> Le raisin est un fruit éclatant de saveur...<a href="raisin.html">voir plus</a></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="gallery-grid">
+              <a href=""> <img  src="../monjardin/img/kaki.jpg" alt="" width="450" height="200"></a>
+            
+              <div class="legend">  Le kaki est le fruit du plaqueminier faisant partie de la grande famille...<a href="kaki.html">voir plus</a></div>
+
+            </div>
+          </div>
+    
+       </div> 
+   </div>
+      
+
+        <!-- Ajouter d'autres images -->     </main> 
+    <footer> 
+    <p><strong style="font-size:25px; ">&copy; AG 2024  Copyright: La Maison verte.</strong>  </p> 
+
+    </footer> 
+   
+      
+    
+  
+</body> 
+</html> 

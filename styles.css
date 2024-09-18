@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+*{
+    
+    box-sizing: border-box;
+    text-shadow: 8px 8px 8px  #aaa ;
+   
+
+    }
+body { 
+    font-family: Arial, sans-serif;   
+      margin: 0; 
+    padding: 0; 
+    background: rgba(0, 0, 0, 0.1);
+} 
+header { 
+    background-color: skyblue;   
+      color: whitesmoke;   
+        padding: 10px 0; 
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+} 
+nav ul { 
+    list-style-type: none;   
+      padding: 0; 
+} 
+nav ul li {     
+    display: inline; 
+    margin: 0 15px;
+ } 
+nav ul li a {   
+      color: initial; 
+      text-decoration: none; 
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-style: italic;
+      text-align: center;
+     
+font-size: 25px;
+}
+
+
+nav ul li a:hover{   
+   
+text-decoration: underline 8px solid whitesmoke;
+} 
+main {   
+      padding: 20px; 
+} 
+footer {    
+     text-align: center;   
+padding: 10px 0;    
+background-color: #4CAF50;  
+
+color: white;  
+position: relative;   
+bottom: 0; 
+width: 100%; 
+
+
+} 
+
+.logo:hover {
+    transform: scale(1.05);
+    }
+    .active{
+        background:orange   ;  
+    
+        box-shadow: 2px 2px 1px  white;
+        border-radius:5px; 
+       
+     }
+     img{
+        cursor: pointer;
+     }
+     h1{
+        color:green;
+       
+    }
+ 
